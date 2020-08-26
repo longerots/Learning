@@ -14,3 +14,5 @@ class TestExplCompSimple(ExplicitComponent):
 
     def compute(self, inputs, outputs):
         outputs['area'] = inputs['length'] * inputs['width']
+
+
