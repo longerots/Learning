@@ -23,5 +23,6 @@ prob = om.Problem(model=ScalingExample2())
 
 prob.setup()
 
-print(prob.get_val('y1'))
-print(prob.get_val('y2'))
+# print(prob.get_val('y1'))
+print(prob.get_val('residuals'))
+# print(prob.get_val('y2'))
